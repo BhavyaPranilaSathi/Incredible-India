@@ -1,0 +1,255 @@
+.quiz-page {
+  min-height: 100%;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+}
+
+.quiz-page_description {
+  padding: 0 32px;
+  padding-bottom: 16px;
+}
+
+.quiz-page_title {
+  padding: 16px 32px;
+}
+
+.quiz-page_subscribe-button {
+  background-color: inherit;
+  color: var(--color-text-tertiary);
+  padding: 0;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.quiz_form {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  line-height: 1.6;
+  gap: 16px;
+  padding: 16px;
+  background-color: var(--color-bg-secondary);
+}
+
+.quiz_title {
+  padding: 16px 32px;
+  background-color: var(--color-bg-secondary);
+}
+
+.quiz_question {
+  height: 100%;
+  padding: 8px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.quiz_card {
+  grid-column: span 12;
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-text-secondary);
+  padding-bottom: 12px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.quiz_reveal-button {
+  align-self: center;
+  background-color: var(--color-text-primary);
+  color: var(--color-bg-tertiary);
+  margin-top: auto;
+  padding: 8px 32px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.quiz_reveal-button:hover,
+.quiz_reveal-button:focus {
+  background-color: var(--color-text-tertiary);
+}
+
+.quiz_reveal--unanswered {
+  background-color: var(--color-bg-secondary);
+}
+
+.quiz_reveal-button:disabled {
+  opacity: 0.5;
+}
+
+.quiz_reveal--wrong {
+  background-color: var(--color-quiz-incorrect);
+}
+
+.quiz_reveal--correct {
+  background-color: var(--color-quiz-correct);
+}
+
+.quiz_radio {
+  display: block;
+  padding-bottom: 8px;
+}
+
+.quiz_reveal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+.quiz_reveal-icon {
+  align-self: center;
+}
+
+.quiz_reveal--visible {
+  transform: scaleX(1);
+}
+
+.quiz_result-container {
+  grid-column: span 12;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg-tertiary);
+  align-items: center;
+  padding: 20px;
+}
+
+.quiz_submit-button {
+  background-color: var(--color-text-tertiary);
+  color: var(--color-bg-tertiary);
+  padding: 4px 32px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.quiz_submit-button:disabled {
+  opacity: 0.5;
+}
+
+.quiz_submit-button:hover,
+.quiz_submit-button:focus {
+  background-color: var(--color-text-secondary);
+}
+
+.quiz_result {
+  visibility: hidden;
+  font-size: 3rem;
+}
+
+.quiz_result--visible {
+  visibility: visible;
+}
+
+.modal {
+  margin: auto;
+  width: 70vw;
+  padding: 16px;
+  max-width: 480px;
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-text-secondary);
+  border: 2px solid black;
+}
+
+.modal::backdrop {
+  background-color: black;
+  opacity: 0.7;
+}
+
+
+
+.form {
+  display: flex;
+  flex-flow: column nowrap;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.modal_title {
+  margin: 16px 0;
+
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.form_label {
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+
+
+.form_label-required {
+  font-style: italic;
+
+  color: red;
+}
+
+.form_label:hover {
+  cursor: pointer;
+}
+
+.form_error-message {
+  margin: 4px 0;
+  display: block;
+  font-style: italic;
+  color: red;
+}
+
+.form_input--invalid {
+  border: 2px dashed red;
+}
+
+.form_button-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.form_button {
+  padding: 8px 36px;
+  font-size: 1.2rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.form_button--cancel {
+  background-color: var(--color-quiz-incorrect);
+}
+
+.form_button--subscribe {
+  background-color: var(--color-quiz-correct);
+}
+
+
+
+@media screen and (min-width: 64rem) {
+  .quiz_card {
+    grid-column: span 4;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .quiz_card {
+    grid-column: span 6;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .quiz_result {
+    transition: visibility ease-in-out 0.4s;
+  }
+
+  .quiz_reveal {
+    transition: transform ease-in-out 0.4s;
+  }
+}

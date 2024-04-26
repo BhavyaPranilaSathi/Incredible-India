@@ -1,0 +1,52 @@
+The following images were downloaded from unsplash under their free-to-use license:
+
+logo image
+1. placeholder-logo      ,    link:  https://unsplash.com/photos/a-statue-of-a-lion-on-top-of-a-building-9otnZm8k5oU
+
+Home/Landing Page video images  
+/* This video is created on my own using canva with the pictures downloaded from unsplash.com */
+1.  vid1      ,    link:  https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-TXJEdxs5Hh4
+2.  vid2      ,    link:  https://unsplash.com/photos/person-in-facial-paint-and-costume-mM6cUV3B9M8
+3.  vid3      ,    link:  https://unsplash.com/photos/teal-and-brown-cathedral-FmRV745ND1o
+4.  vid4      ,    link:  https://unsplash.com/photos/lit-candles-xisPXJqwQkA
+5.  vid5      ,    link:  https://unsplash.com/photos/brown-concrete-building-during-daytime-AZ4y6Bc3qeI
+6.  vid6      ,    link:  https://unsplash.com/photos/three-woman-performing-traditional-dance-_HzlOHmboSk
+7.  vid7      ,    link:  https://unsplash.com/photos/man-walking-on-shore-carrying-basket--yonBAYjcME
+8.  vid8      ,    link:  https://unsplash.com/photos/people-near-taj-mahal-eU4pipU_8HA
+9.  vid9      ,    link:  https://unsplash.com/photos/clear-drinking-glass-with-white-liquid-on-brown-wooden-round-table-NLqNQ10ppe0
+10. vid10     ,    link:  https://unsplash.com/photos/selective-focus-photo-of-girl-in-shirt-smiling-iSi02D_Qx_w
+11. vid11     ,    link:  https://unsplash.com/photos/snow-covered-mountains-under-blue-sky-during-daytime-AUlvTXWMY-Y
+12. vid12     ,    link:  https://unsplash.com/photos/man-raising-gold-colored-trophy-8aXv0FlsgQo
+13. vid13     ,    link:  https://unsplash.com/photos/brown-camel-on-brown-open-field-during-daytime-5U132F-itpg
+14. vid14     ,    link:  https://unsplash.com/photos/palace-at-night-JRhvllDBhzs
+
+Home/Landing Page images 
+1.  history   ,    link:  https://unsplash.com/photos/books-filed-on-bookshelf-hHL08lF7Ikc
+2.  fact      ,    link:  https://unsplash.com/photos/a-figurine-of-a-horse-pulling-a-wagon-xdiObjHyh_g
+3.  quiz      ,    link:  https://unsplash.com/photos/man-wearing-full-face-mask-holding-torch-with-both-hands-aDXV4GbqHcQ
+
+History Page images
+1.  history1  ,    link:  https://unsplash.com/photos/a-painting-of-a-group-of-people-in-a-forest-Z47V143koz
+2.  history2  ,    link:  https://unsplash.com/photos/desk-globe-POqJeWrVfnU
+3.  history3  ,    link:  https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-q8ZiBGZID1g
+4.  history4  ,    link:  https://unsplash.com/photos/landscape-photography-of-mountain-EKNe678ktEY
+5.  history5  ,    link:  https://unsplash.com/photos/a-stone-carving-of-elephants-and-other-animals-3OWW1ya-CEY
+6.  history6  ,    link:  https://unsplash.com/photos/a-painting-of-a-woman-and-a-dog-on-a-wall-yveLCLz3Cws
+7.  history7  ,    link:  https://unsplash.com/photos/a-large-white-dome-sitting-above-a-red-wall-dSrJOjgHclw
+
+Facts Page images: 
+1.  fact1     ,    link:  https://unsplash.com/photos/white-rice-on-green-plate-yCIcDyKm440
+2.  fact2     ,    link:  https://unsplash.com/photos/man-sitting-on-bench-near-trees-and-people-near-taj-mahal-india-during-day-BpSLyvZIW2E
+3.  fact3     ,    link:  https://unsplash.com/photos/brown-and-black-tiger-walking-on-brown-soil-SLyVj5uz6_I
+4.  fact4     ,    link:  https://unsplash.com/photos/brown-wooden-framed-jesus-christ-painting-7rciqlh5_iQ
+5.  fact5     ,    link:  https://unsplash.com/photos/selective-focus-photography-of-brown-cow-RxHhxWnXmNs
+6.  fact6     ,    link:  https://unsplash.com/photos/a-man-doing-a-trick-on-a-skateboard-cxY38XRlX1k
+7.  fact7     ,    link:  https://unsplash.com/photos/a-close-up-of-a-dice-on-a-board-game-k0ffq4Bdxm0
+8.  fact8     ,    link:  https://unsplash.com/photos/silver-colored-accessory-with-clear-gemstones-on-black-surface-1MWbwTaeJIA
+9.  fact9     ,    link:  https://unsplash.com/photos/woman-standing-in-front-of-group-of-people-Uzl-KYPAH44
+10. fact10    ,    link:  https://unsplash.com/photos/lake-in-the-middle-of-mountains-during-daytime-XTroPPNq6JA
+11. fact11    ,    link:  https://unsplash.com/photos/black-and-white-chess-pieces-52fJt0L_MLY
+12. fact12    ,    link:  https://unsplash.com/photos/an-open-book-sitting-on-top-of-a-table-pT4Cot62pE4
+
+Used css.gg icons under their MIT free use license.
+

@@ -1,0 +1,44 @@
+/* Theme colors */
+.app--light {
+  --color-bg-primary: #a1865e; 
+  --color-bg-secondary: #90a797;
+  --color-bg-tertiary: #a68a64; 
+  --color-text-primary:  #000000;
+  --color-text-secondary: #0e0e0e;
+  --color-text-tertiary: #0213aafb;
+  --color-quiz-incorrect: #b5444e;
+  --color-quiz-correct: #6d835d;
+}
+.app--dark {
+  --color-bg-primary: #2b1708;
+  --color-bg-secondary: #2b4f30;
+  --color-bg-tertiary: #252422;
+  --color-text-primary: #fff5eb;
+  --color-text-secondary: #f5f5f5;
+  --color-text-tertiary: #c0ffee;
+  --color-quiz-incorrect: #b5444e;
+  --color-quiz-correct: #6d835d;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.skip-link {
+  margin-left: -5rem;
+  width: 10rem; 
+  position: absolute;
+  left: -100%;
+  top: 4px;
+  font-size: 1rem;
+  text-align: center;
+  color: white; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 9999;   
+}
+
+.skip-link:focus {
+  left: 50%;
+}
